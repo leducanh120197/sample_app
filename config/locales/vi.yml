@@ -18,4 +18,17 @@ vi:
       home: "Trang chủ"
       sample_app: "Ứng dụng mẫu"
       content_html: "Đây là trang chủ cho ứng dụng mẫu %{link1}."
+      sign_up_now: "Đăng ký ngay!"
+  users:
+    new:
+      sign_up: "Đăng nhập"
+      contant: "Trang đăng nhập cho người dùng"
   ror_tutorial_sa: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  by_MH: "thực hiện bởi Michael Hartl"
+  home: "Trang chủ"
+  help: "Trợ giúp"
+  log_in: "Đăng nhập"
+  sample_app: "Ứng dụng mẫu"
+  about: "Về chúng tôi"
+  contact: "Liên hệ"
+  news: "Tin tức"

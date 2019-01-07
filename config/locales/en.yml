@@ -18,4 +18,17 @@ en:
       home: "Home"
       sample_app: "Sample app"
       content_html: "This is the home page for the %{link1} sample application."
+      sign_up_now: "Sign up now!"
+  users:
+    new:
+      sign_up: "Sign up"
+      contant: "A signup page for new users."
   ror_tutorial_sa: "Ruby on Rails Tutorial"
+  by_MH: "by Michael Hartl"
+  home: "Home"
+  help: "Help"
+  log_in: "Log in"
+  sample_app: "Sample App"
+  about: "About"
+  contact: "Contact"
+  news: "News"
