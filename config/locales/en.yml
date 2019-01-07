@@ -3,22 +3,19 @@ en:
     about:
       about: "About"
       book: "book"
-      screencast_series: "screencast series"    
+      screencast_series: "screencast series"
       content_html: "The %{link1} is a %{link2} and %{link3} to teach web development with %{link4}. This is the sample application for the tutorial."
-      ror_ttr_sa: "Ruby on Rails Tutorial Sample App"
     contact:
       contact: "Contact"
       contact_page: "contact page"
       content_html: "Contact the Ruby on Rails Tutorial about the sample app at the"
-      ror_ttr_sa: "Ruby on Rails Tutorial Sample App"
     help:
       help: "Help"
       rails_ttr_hp: "Rails Tutorial help page"
       ror_ttr: "Ruby on Rails Tutorial"
       content_html: "Get help on the Ruby on Rails Tutorial at the %{link1}. To get help on this sample app, see the %{link2} book."
-      ror_ttr_sa: "Ruby on Rails Tutorial Sample App"
     home:
       home: "Home"
       sample_app: "Sample app"
       content_html: "This is the home page for the %{link1} sample application."
-      ror_ttr_sa: "Ruby on Rails Tutorial Sample App"
+  ror_tutorial_sa: "Ruby on Rails Tutorial"
