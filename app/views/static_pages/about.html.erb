@@ -1,8 +1,7 @@
 <% provide :title, t(".about") %>
-<% provide :name, t(".ror_ttr_sa") %>
 <h1><%= t ".about" %></h1>
 <p>
-  <%= t ".content_html", 
+  <%= t ".content_html",
     link1: link_to("<em>Ruby on Rails Tutorial</em>".html_safe, "http://www.railstutorial.org/"), 
     link2: link_to(t(".book"), "http://www.railstutorial.org/book"),
     link3: link_to(t(".screencast_series"), "http://screencasts.railstutorial.org/"),
