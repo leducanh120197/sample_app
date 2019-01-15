@@ -51,6 +51,7 @@ vi:
       log_in: "Đăng nhập"
       new_user: "Tạo người dùng mới?"
       sign_up_now: "Đăng ký ngay!"
+      remember_me: "Hãy nhớ tôi trên máy tính này"
   shared:
     error_messages:
       the_fr_contains: "mẫu nhập có chứa "
