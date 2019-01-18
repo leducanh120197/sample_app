@@ -22,7 +22,11 @@ vi:
   users:
     new:
       sign_up: "Đăng nhập"
-      contant: "Trang đăng nhập cho người dùng"
+      name: "Họ và tên"
+      email: "Địa chỉ mail"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩi"
+      create_acc: "Tạo tài khoản của tôi"
   ror_tutorial_sa: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   by_MH: "thực hiện bởi Michael Hartl"
   home: "Trang chủ"
@@ -32,3 +36,6 @@ vi:
   about: "Về chúng tôi"
   contact: "Liên hệ"
   news: "Tin tức"
+  success: "Chào mừng bạn đến với Ứng dụng mẫu!"
+  ranger: "Thất bại"
+  not_found: "Không tìm thấy người dùng"
