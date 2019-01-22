@@ -70,10 +70,33 @@ vi:
       new_user: "Tạo người dùng mới?"
       sign_up_now: "Đăng ký ngay!"
       remember_me: "Hãy nhớ tôi trên máy tính này"
+      forgot_password: "(Quên mật khẩu)"
   shared:
     error_messages:
       the_fr_contains: "mẫu nhập có chứa "
       error: "lỗi"
+  user_mailer:
+    account_activation:
+      sample_app: "Ứng dụng mẫu"
+      hi: "Chào,"
+      welcome_to: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
+      activate: "Kích hoạt"
+    password_reset:
+      password_reset: "Đặt lại mật khẩu"
+      to_reset: "Để đặt lại mật khẩu của bạn, nhấp vào liên kết dưới đây:"
+      reset_password: "Đặt lại mật khẩu"
+      this_link: "Liên kết này sẽ hết hạn trong hai giờ."
+      if_you: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên."
+  password_resets:
+    edit:
+      reset_password: "Đặt lại mật khẩu"
+      update_password: "Cập nhật mật khẩu"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+    new:
+      forgot_password: "Quên mật khẩu"
+      email: "Địa chỉ email"
+      submit: "Gửi đi"
   ror_tutorial_sa: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   success: "Chào mừng bạn đến với Ứng dụng mẫu!"
   ranger: "Thất bại"
@@ -87,9 +110,9 @@ vi:
   account_not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn cho các liên kết kích hoạt."
   pls_check_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
   account_activation: "Kích hoạt tài khoản"
-  user_mailer:
-    account_activation:
-      sample_app: "Ứng dụng mẫu"
-      hi: "Chào,"
-      welcome_to: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
-      activate: "Kích hoạt"
+  email_sent_with_password: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+  email_address_not_found: "Không tìm thấy địa chỉ mail"
+  cant_be_empty: "không được để trống"
+  password_has_been_reset: "Mật khẩu đã được đặt lại."
+  password_reset_has_expired: "Đặt lại mật khẩu đã hết hạn."
+  password_reset: "Đặt lại mật khẩu"
