@@ -82,3 +82,14 @@ vi:
   invalid_email_password: "Email / mật khẩu không hợp lệ"
   profile_updated: "Hồ sơ cá nhân đã cập nhật"
   pls_log_in: "Xin vui lòng đăng nhập."
+  account_activated: "Tài khoản đã được kích hoạt!"
+  invalid_activation_link: "Liên kết kích hoạt không hợp lệ"
+  account_not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn cho các liên kết kích hoạt."
+  pls_check_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+  account_activation: "Kích hoạt tài khoản"
+  user_mailer:
+    account_activation:
+      sample_app: "Ứng dụng mẫu"
+      hi: "Chào,"
+      welcome_to: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
+      activate: "Kích hoạt"

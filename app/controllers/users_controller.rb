@@ -1,9 +1,8 @@
 class UsersController < ApplicationController
-  before_action :load_user, only: [:show, :edit, :update, :destroy,
-    :correct_user]
-  before_action :logged_in_user, only: [:index, :edit, :update, :destroy]
-  before_action :correct_user, only: [:edit, :update]
-  before_action :admin_user, only: :destroy
+  before_action :load_user, only: %i(show edit update destroy correct_user)
+  before_action :logged_in_user, only: %i(index edit update destroy)
+  before_action :correct_user, only: %i(edit update)
+  before_action :admin_user, only: %i(destroy)
 
   def index
     @users = User.page(params[:page]).per Settings.user_number
@@ -17,9 +16,9 @@ class UsersController < ApplicationController
     @user = User.new user_params
 
     if @user.save
-      log_in @user
-      flash[:success] = t "success"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "pls_check_email"
+      redirect_to root_url
     else
       flash[:ranger] = t "ranger"
       render :new
