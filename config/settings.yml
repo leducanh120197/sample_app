@@ -5,3 +5,5 @@ user_validates:
 user_helpper:
   size: 80
 string_one: "1"
+avt_size: 50
+user_number: 15

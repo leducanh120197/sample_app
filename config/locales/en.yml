@@ -1,4 +1,11 @@
 en:
+  views:
+    pagination:
+      truncate: "..."
+      first: "First"
+      last: "last"
+      next: "next"
+      previous: "prev"
   static_pages:
     about:
       about: "About"
@@ -22,11 +29,22 @@ en:
   users:
     new:
       sign_up: "Sign up"
+      create_acc: "Create my account"
+    form:
       name: "Name"
       email: "Email"
       password: "Password"
       password_confirmation: "Password confirmation"
-      create_acc: "Create my account"
+    edit:
+      edit_user: "Edit user"
+      save_changes: "Save changes"
+      update_profile: "Update your profile"
+      change: "Change"
+    index:
+      all_users: "All users"
+    user:
+      delete: "Delete"
+      sure: "You sure?"
   layouts:
     header:
       sample_app: "Sample App"
@@ -60,4 +78,7 @@ en:
   success: "Welcome to the Sample App!"
   ranger: "Fails"
   not_found: "User not found"
+  user_deleted: "User deleted"
   invalid_email_password: "Invalid email/password combination"
+  profile_updated: "Profile updated"
+  pls_log_in: "Please log in."
