@@ -4,3 +4,4 @@ user_validates:
   name_max_length: 50
 user_helpper:
   size: 80
+string_one: "1"
