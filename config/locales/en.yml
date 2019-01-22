@@ -26,6 +26,7 @@ en:
       sample_app: "Sample app"
       content_html: "This is the home page for the %{link1} sample application."
       sign_up_now: "Sign up now!"
+      micropost_feed: "Micropost Feed"
   users:
     new:
       sign_up: "Sign up"
@@ -75,6 +76,12 @@ en:
     error_messages:
       the_fr_contains: "The form contains "
       error: "error"
+    micropost_form:
+      post: "Post"
+      compose_new_micropost: "Compose new micropost..."
+    user_info:
+      view_my_profile: "view my profile"
+      micropost: "micropost"
   user_mailer:
     account_activation:
       sample_app: "Sample_app"
@@ -97,9 +104,15 @@ en:
       forgot_password: "Forgot password"
       email: "Email"
       submit: "Submit"
+  microposts:
+    micropost:
+      posted: "Posted"
+      ago: "ago."
+      delete: "delete"
+      you_sure: "You sure?"
   ror_tutorial_sa: "Ruby on Rails Tutorial"
   success: "Welcome to the Sample App!"
-  ranger: "Fails"
+  danger: "Fails"
   not_found: "User not found"
   user_deleted: "User deleted"
   invalid_email_password: "Invalid email/password combination"
@@ -116,3 +129,6 @@ en:
   password_has_been_reset: "Password has been reset."
   password_reset_has_expired: "Password reset has expired."
   password_reset: "Password reset"
+  mircopost_create: "Micropost created!"
+  micropost_deleted: "Micropost deleted"
+  should_be_less: "should be less than 5MB"

@@ -26,6 +26,7 @@ vi:
       sample_app: "Ứng dụng mẫu"
       content_html: "Đây là trang chủ cho ứng dụng mẫu %{link1}."
       sign_up_now: "Đăng ký ngay!"
+      micropost_feed: "Danh sách"
   users:
     new:
       sign_up: "Đăng nhập"
@@ -75,6 +76,12 @@ vi:
     error_messages:
       the_fr_contains: "mẫu nhập có chứa "
       error: "lỗi"
+    micropost_form:
+      post: "Bài đăng"
+      compose_new_micropost: "Soạn bài đăng mới ..."
+    user_info:
+      view_my_profile: "xem hồ sơ của tôi"
+      micropost: "bài đăng"
   user_mailer:
     account_activation:
       sample_app: "Ứng dụng mẫu"
@@ -97,9 +104,15 @@ vi:
       forgot_password: "Quên mật khẩu"
       email: "Địa chỉ email"
       submit: "Gửi đi"
+  microposts:
+    micropost:
+      posted: "Đăng bài"
+      ago: "trước."
+      delete: "xóa"
+      you_sure: "Bạn chắc chứ?"
   ror_tutorial_sa: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   success: "Chào mừng bạn đến với Ứng dụng mẫu!"
-  ranger: "Thất bại"
+  danger: "Thất bại"
   not_found: "Không tìm thấy người dùng"
   user_deleted: "Đã xóa nguời dùng"
   invalid_email_password: "Email / mật khẩu không hợp lệ"
@@ -116,3 +129,6 @@ vi:
   password_has_been_reset: "Mật khẩu đã được đặt lại."
   password_reset_has_expired: "Đặt lại mật khẩu đã hết hạn."
   password_reset: "Đặt lại mật khẩu"
+  mircopost_create: "Đã tạo bài đăng"
+  micropost_deleted: "Đã xóa bài"
+  should_be_less: "nên dưới 5 MB"

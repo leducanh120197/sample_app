@@ -20,12 +20,14 @@ class UsersController < ApplicationController
       flash[:info] = t "pls_check_email"
       redirect_to root_url
     else
-      flash[:ranger] = t "ranger"
+      flash[:danger] = t "danger"
       render :new
     end
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.page(params[:page]).per Settings.micropost_number
+  end
 
   def edit; end
 
@@ -34,13 +36,13 @@ class UsersController < ApplicationController
       flash[:success] = t "profile_updated"
       redirect_to @user
     else
-      flash[:ranger] = t "ranger"
+      flash[:danger] = t "danger"
       render :edit
     end
   end
 
   def destroy
-    @user.destroy ? flash[:success] = t("user_deleted") : flash[:ranger] = t("ranger")
+    @user.destroy ? flash[:success] = t("user_deleted") : flash[:danger] = t("danger")
     redirect_to users_url
   end
 
