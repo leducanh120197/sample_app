@@ -1,4 +1,11 @@
 vi:
+  views:
+    pagination:
+      truncate: "..."
+      first: "Đầu"
+      last: "Cuối"
+      next: "tiếp"
+      previous: "trước"
   static_pages:
     about:
       about: Về chúng tôi
@@ -22,11 +29,22 @@ vi:
   users:
     new:
       sign_up: "Đăng nhập"
+      create_acc: "Tạo tài khoản của tôi"
+    form:
       name: "Họ và tên"
       email: "Địa chỉ mail"
       password: "Mật khẩu"
       password_confirmation: "Xác nhận mật khẩi"
-      create_acc: "Tạo tài khoản của tôi"
+    edit:
+      edit_user: "Chỉnh sửa người dùng"
+      save_changes: "Lưu các thay đổi"
+      update_profile: "Cập nhật thông tin của bạn"
+      change: "Thay đổi"
+    index:
+      all_users: "Tất cả người dùng"
+    user:
+      delete: "Xóa"
+      sure: "Bạn chắc chứ?"
   layouts:
     header:
       sample_app: "Ứng dụng mẫu"
@@ -60,4 +78,7 @@ vi:
   success: "Chào mừng bạn đến với Ứng dụng mẫu!"
   ranger: "Thất bại"
   not_found: "Không tìm thấy người dùng"
+  user_deleted: "Đã xóa nguời dùng"
   invalid_email_password: "Email / mật khẩu không hợp lệ"
+  profile_updated: "Hồ sơ cá nhân đã cập nhật"
+  pls_log_in: "Xin vui lòng đăng nhập."
