@@ -82,3 +82,14 @@ en:
   invalid_email_password: "Invalid email/password combination"
   profile_updated: "Profile updated"
   pls_log_in: "Please log in."
+  account_activated: "Account activated!"
+  invalid_activation_link: "Invalid activation link"
+  account_not_activated: "Account not activated. Check your email for the activation link."
+  pls_check_email: "Please check your email to activate your account."
+  account_activation: "Account activation"
+  user_mailer:
+    account_activation:
+      sample_app: "Sample_app"
+      hi: "Hi,"
+      welcome_to: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
