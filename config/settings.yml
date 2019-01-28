@@ -7,3 +7,4 @@ user_helpper:
 string_one: "1"
 avt_size: 50
 user_number: 15
+reset_sent_at: 1
