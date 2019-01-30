@@ -46,6 +46,13 @@ en:
     user:
       delete: "Delete"
       sure: "You sure?"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view_my_profile: "view my profile"
+      microposts: "Microposts"
   layouts:
     header:
       sample_app: "Sample App"
@@ -132,3 +139,7 @@ en:
   mircopost_create: "Micropost created!"
   micropost_deleted: "Micropost deleted"
   should_be_less: "should be less than 5MB"
+  js:
+    picture_too_large: "Maximum file size is 5MB. Please choose a smaller file."
+  followers: "Followers"
+  following: "Following"

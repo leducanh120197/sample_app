@@ -46,6 +46,13 @@ vi:
     user:
       delete: "Xóa"
       sure: "Bạn chắc chứ?"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    show_follow:
+      view_my_profile: "xem hồ sơ"
+      microposts: "Các bài đăng"
   layouts:
     header:
       sample_app: "Ứng dụng mẫu"
@@ -132,3 +139,7 @@ vi:
   mircopost_create: "Đã tạo bài đăng"
   micropost_deleted: "Đã xóa bài"
   should_be_less: "nên dưới 5 MB"
+  js:
+    picture_too_large: "Kích thước tệp tối đa là 5MB. Chọn tệp khác."
+  followers: "Người theo dõi"
+  following: "Đang theo dõi"
