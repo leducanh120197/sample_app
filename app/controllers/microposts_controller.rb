@@ -9,9 +9,7 @@ class MicropostsController < ApplicationController
       flash[:success] = t "mircopost_create"
       redirect_to root_url
     else
-      flash[:danger] = t "danger"
-      @feed_items = []
-      render "static_pages/home"
+      micropost_not_save
     end
   end
 
@@ -29,5 +27,11 @@ class MicropostsController < ApplicationController
   def correct_user
     @micropost = current_user.microposts.find_by id: params[:id]
     redirect_to root_url unless @micropost
+  end
+
+  def micropost_not_save
+    flash[:danger] = t "danger"
+    @feed_items = current_user.feed.page(params[:page]).per Settings.feed_number
+    render "static_pages/home"
   end
 end

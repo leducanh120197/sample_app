@@ -26,7 +26,11 @@ class UsersController < ApplicationController
   end
 
   def show
-    @microposts = @user.microposts.page(params[:page]).per Settings.micropost_number
+    @new_relationship = current_user.active_relationships.build
+    @update_relationship = current_user.active_relationships
+                                       .find_by followed_id: @user.id
+    @microposts = @user.microposts.order_desc.page(params[:page])
+                       .per Settings.micropost_number
   end
 
   def edit; end
@@ -70,5 +74,9 @@ class UsersController < ApplicationController
 
   def load_user
     @user = User.find_by id: params[:id]
+
+    return if @user
+    flash[:danger] = t "user_not_found"
+    redirect_to root_url
   end
 end

@@ -2,6 +2,10 @@
   <div class = "container">
     <%= link_to "English", locale: "en" %>
     <%= link_to "Vietnamese", locale: "vi" %>
+    <script type="text/javascript">
+      I18n.defaultLocale = "<%= I18n.default_locale %>"
+      I18n.locale = "<%= I18n.locale || I18n.default_locale %>"
+    </script>
     <%= link_to t(".sample_app"), root_path, id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
